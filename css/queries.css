@@ -16,7 +16,11 @@
         padding-top: 50%;
     }
 }
-
+@media screen and (min-width: 1600px) {
+    .image-container {
+        padding-top: 20%; /* Adjust the value for ultrawide screens */
+    }
+  }
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
     header {
@@ -297,7 +301,7 @@
     }
     
     .hero .hero-content img {
-        width: 65%;
+        width: 80%;
     }
 
     .hero .btn {
